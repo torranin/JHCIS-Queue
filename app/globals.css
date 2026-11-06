@@ -1,0 +1,206 @@
+*{box-sizing:border-box} :root{--green:#176e58;--ink:#233b36;--muted:#84918c;--border:#e2e8e4}body{margin:0;background:#f6f8f7;color:var(--ink);font-family:Tahoma,'Segoe UI',sans-serif;font-size:14px}button,input,textarea{font:inherit}button{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:background .15s}button:disabled{cursor:not-allowed;opacity:.45}button:focus-visible,a:focus-visible{outline:3px solid #73bdaa;outline-offset:3px}input,textarea{width:100%;border:1px solid #dce4df;border-radius:7px;padding:12px;color:var(--ink);background:white;outline:none}input:focus,textarea:focus{border-color:#318c72;box-shadow:0 0 0 3px #e8f3ee}label{display:block;font-size:13px;font-weight:600;margin-bottom:8px}label input,label textarea{margin-top:8px}label span{color:#a86555}h1,h2,h3,p{margin:0}h2{font-size:16px}a{color:inherit;text-decoration:none}.workspace{display:flex;min-height:100vh}.sidebar{width:244px;flex-shrink:0;background:#fff;border-right:1px solid var(--border);padding:33px 21px;display:flex;flex-direction:column;position:fixed;inset:0 auto 0 0}.brand{display:flex;gap:11px;align-items:center;font-family:'Segoe UI',Tahoma,sans-serif;font-size:21px;font-weight:700;letter-spacing:-.5px}.brand b{color:var(--green);font-weight:500}.brand small{display:block;font-family:Tahoma,sans-serif;letter-spacing:0;font-size:10px;font-weight:400;color:var(--muted);margin-top:5px}.brand-icon{height:43px;width:43px;display:grid;place-items:center;background:var(--green);color:white;border-radius:12px}.nav-label{font-size:10px;letter-spacing:1.8px;color:#9ba7a1;margin:52px 12px 15px}.nav-item{display:flex;width:100%;justify-content:flex-start;border:0;background:none;gap:13px;color:#77857f;font-size:13px;border-radius:7px;padding:14px 12px;margin-bottom:7px}.nav-item.active{background:#eaf4ee;color:var(--green);font-weight:bold}.nav-item svg:last-child:not(:first-child){margin-left:auto}.sidebar-bottom{margin-top:auto;padding:25px 12px 0}.hospital-mark{font-size:28px;color:var(--green);margin-bottom:10px}.sidebar-bottom strong{display:block;font-size:12px}.sidebar-bottom small{display:block;font-size:10px;color:#96a19c;margin-top:7px}.version{border-top:1px solid var(--border);margin-top:24px;padding-top:20px;font-size:9px;letter-spacing:1px;color:#9aa79f}.version span{float:right}.main{margin-left:244px;flex:1;min-width:0}.topbar{height:73px;background:#fff;border-bottom:1px solid var(--border);padding:0 42px;display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#87968e}.topbar>span{display:flex;gap:13px;align-items:center}.topbar b{font-weight:400;color:#425a50}.private{background:#f5f8f6;padding:7px 10px;border-radius:5px}main{padding:36px 42px 0;max-width:1500px;margin:auto}.page-heading{position:relative;margin-bottom:30px}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:600;color:#4d8972;margin-bottom:10px}h1{font-size:26px;letter-spacing:-.6px;line-height:1.5}.page-heading p{color:#85948c;font-size:12px;margin-top:7px}.outline{background:white;border:1px solid #dce5df;border-radius:7px;padding:11px 15px;color:#50665b;font-size:12px}.settings-top{position:absolute;right:0;top:25px}.columns{display:grid;grid-template-columns:330px minmax(400px,1fr);gap:27px;align-items:start}.card{border:1px solid var(--border);border-radius:11px;background:white;box-shadow:0 3px 7px #233b3603;padding:24px}.card-title{display:flex;gap:12px;align-items:center;margin-bottom:26px}.card-title p,.modal-header p{font-size:11px;color:var(--muted);margin-top:6px}.icon-tile{width:40px;height:40px;border-radius:9px;background:#eef6f1;color:var(--green);display:grid;place-items:center;flex-shrink:0}.input-wrap{position:relative}.input-wrap svg{position:absolute;left:13px;top:15px;color:#a0ada5}.input-wrap input{padding-left:40px;height:47px}.hint{font-size:10px;color:#95a198;line-height:1.7;margin-top:9px}.primary{background:var(--green);color:white;border:0;border-radius:7px;padding:13px 18px;font-weight:600;font-size:12px}.primary:hover:not(:disabled){background:#115640}.search-button{width:100%;margin:21px 0 23px}.search-button svg:last-child{margin-left:auto}.mode{border-top:1px solid #edf0ee;padding-top:19px;display:flex;align-items:center;gap:7px;font-size:11px;color:#6c7b70}.dot{width:6px;height:6px;border-radius:100%;display:inline-block;background:#d8a652;flex-shrink:0}.dot.green{background:#4c9674}.mode-tag{font-size:8px;letter-spacing:.7px;border:1px solid #eee4cf;background:#fcfaf4;padding:3px 5px;border-radius:3px;margin-left:auto;color:#a0844d}.demo-help{font-size:10px;color:#98a097;margin-top:12px;line-height:1.9}.demo-help button{border:0;padding:0;background:none;color:var(--green);font-weight:700;text-decoration:underline}.print-card{margin-top:20px}.print-card h2{display:flex;gap:11px;align-items:center;font-size:14px}.paper-spec{display:flex;align-items:center;gap:12px;border:1px solid #e7ece8;background:#fafcfb;padding:15px 12px;border-radius:7px;margin:21px 0}.paper-icon{border:1px solid #b9cdc0;color:var(--green);font-size:11px;width:31px;height:39px;display:grid;place-items:center;background:white;border-radius:3px}.paper-spec strong{font-size:11px}.paper-spec small{display:block;font-size:9px;color:#8c9b91;margin-top:6px}.paper-spec>svg{margin-left:auto;color:var(--green)}.print-button{width:100%}.center{text-align:center}.guide{display:flex;gap:12px;padding:23px 9px;color:#7f9085}.guide>span{border:1px solid #95a99b;width:16px;height:16px;border-radius:50%;text-align:center;font-size:11px}.guide strong{font-size:11px;font-weight:500}.guide p{font-size:10px;line-height:1.9;margin-top:7px}.preview-panel{border:1px solid var(--border);border-radius:11px;overflow:hidden;background:white}.preview-header{display:flex;align-items:center;justify-content:space-between;height:61px;padding:0 23px;font-size:12px}.preview-header>span:first-child{display:flex;align-items:center;gap:10px}.a5-badge{font-size:10px;font-weight:bold;border:1px solid var(--border);border-radius:4px;padding:5px 8px}.a5-badge span{font-size:8px;color:#91a096;letter-spacing:.6px;font-weight:normal;margin-left:7px}.preview-canvas{padding:28px;min-height:660px;background:#edf1ee;background-image:radial-gradient(#d4dfd7 .7px,transparent .7px);background-size:12px 12px;display:flex;justify-content:center;align-items:flex-start;overflow:auto}.empty-paper{width:420px;max-width:100%;aspect-ratio:148/210;background:white;box-shadow:0 4px 16px #2d4a3610;padding:37px 35px;display:flex;flex-direction:column}.empty-paper-top{border-bottom:1px solid #eff2ef;padding-bottom:23px;display:flex;flex-direction:column;align-items:center;gap:10px}.empty-paper-top div{background:#f0f4f1;border-radius:3px;height:7px;width:100px}.empty-paper-top div:first-child{height:10px;width:147px}.empty-paper-top div:last-child{width:66px}.empty-content{text-align:center;margin-top:69px}.empty-content>span{display:grid;place-items:center;width:69px;height:69px;border-radius:50%;background:#f3f7f4;color:#94b39e;margin:0 auto 22px}.empty-content h3{font-size:14px;font-weight:500;color:#637b6b}.empty-content p{font-size:11px;line-height:1.9;color:#a0ada4;margin-top:12px}.empty-pill{display:inline-block;border:1px solid #e6ede7;border-radius:4px;padding:6px 9px;color:#9aaa9d;font-size:9px;margin-top:23px}.empty-lines{margin-top:auto;padding-top:20px}.empty-lines i{display:block;border-bottom:1px solid #f0f3f0;margin-top:17px}.preview-footer{display:flex;align-items:center;gap:7px;font-size:9px;color:#8c9b90;height:43px;padding:0 20px}.preview-footer>span:last-child{margin-left:auto}footer{display:flex;gap:15px;font-size:9px;letter-spacing:.5px;color:#8b9b90;padding:27px 0}footer span{border-left:1px solid #dce3dd;padding-left:15px;color:#a6b0a9}.slip{width:148mm;min-width:148mm;min-height:210mm;background:white;padding:9mm 10mm;color:black;font-family:'Angsana New','TH Sarabun New',Tahoma,serif;font-size:15px;box-shadow:0 4px 16px #2d4a3610;overflow-wrap:anywhere}.slip h2{text-align:center;font-family:inherit;font-size:23px}.queue-row{display:flex;justify-content:space-between;font-family:'Times New Roman',serif;font-size:44px;line-height:1.2;margin:5px 0}.slip-date{display:flex;justify-content:space-between;border-bottom:1px solid #aaa;padding-bottom:10px;margin-bottom:10px;font-size:14px}.slip-detail p{margin:5px 0;line-height:1.55}.slip-detail b{margin-right:8px}.split{display:flex;justify-content:space-between;gap:10px}.age{margin-left:15px}.rights{font-size:19px}.vitals{margin-top:18px;font-family:'Times New Roman',serif;font-size:19px}.vitals>div{display:flex;gap:5px;align-items:baseline;margin:13px 0}.vitals span{border-bottom:1px dotted #888;flex:1}.cc-lines>div{display:flex;align-items:baseline;gap:5px;height:29px}.cc-lines i{flex:1;border-bottom:1px dotted #999}.cc-lines span{font-family:'Times New Roman';font-size:19px}.demo-watermark{text-align:center;font:10px Tahoma;color:#806626;padding:5px;border:1px dashed #c9bb92;margin-top:7px}.modal-backdrop{position:fixed;inset:0;background:#132f2766;z-index:10;display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(3px)}.modal{background:white;border-radius:15px;padding:29px;width:420px;max-height:90vh;overflow:auto;box-shadow:0 30px 80px #183a2933}.modal.wide{width:660px}.modal-header{display:flex;gap:12px;align-items:center;margin-bottom:27px}.icon-button{background:none;border:0;padding:5px;color:#819188;margin-left:auto}.full{width:100%;margin-top:20px}.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px}.span-two{grid-column:1/-1}.settings-grid small{font-size:10px;font-weight:400;color:#819188;line-height:1.8}.settings-grid textarea{font:12px/1.6 Consolas,monospace}.toggle{display:flex;align-items:center;gap:10px;font-weight:400;background:#f1f7f3;padding:12px;border-radius:6px}.toggle input{width:16px;margin:0;accent-color:var(--green)}details{font-size:11px;color:#6b8073}.sql-help{font:11px/1.8 Consolas;padding:10px 0}.modal-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}.error,.success{padding:12px;border-radius:6px;font-size:11px;line-height:1.7;margin-top:14px}.error{color:#ac473a;background:#fff1ed}.success{color:#256b4e;background:#eaf7ef}
+@media(min-width:1500px){.columns{grid-template-columns:360px 1fr}.preview-canvas{min-height:865px}}@media(max-width:1200px){.sidebar{width:205px;padding-left:15px;padding-right:15px}.main{margin-left:205px}main{padding:28px 25px 0}.topbar{padding:0 25px}.columns{grid-template-columns:285px minmax(300px,1fr);gap:20px}.card{padding:20px}.settings-top{position:static;margin-top:17px}.preview-canvas{padding:20px 12px}.slip{zoom:.75}}@media(max-width:900px){.sidebar{display:none}.main{margin-left:0}}@media(max-width:650px){.columns{grid-template-columns:1fr}.topbar{padding:0 18px}.private{display:none!important}main{padding:25px 16px 0}.page-heading p{line-height:1.8}.preview-canvas{min-height:0}.slip{zoom:.65}.settings-grid{grid-template-columns:1fr}.span-two{grid-column:auto}.modal{padding:20px}.modal-actions{flex-wrap:wrap}h1{font-size:23px}}
+@page{size:A5 portrait;margin:0}@media print{html,body{background:white!important;margin:0!important;padding:0!important}.sidebar,.topbar,.page-heading,.control-column,.preview-header,.preview-footer,footer,.modal-backdrop{display:none!important}.workspace,.main,main,.columns,.preview-panel,.preview-canvas{display:block!important;background:none!important;border:0!important;margin:0!important;padding:0!important;box-shadow:none!important;min-height:0!important;overflow:visible!important;max-width:none!important}.slip{zoom:1!important;width:148mm;min-width:0;min-height:0;height:auto;padding:9mm 10mm;box-shadow:none;break-inside:avoid}.empty-paper{display:none!important}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* Fit the working area to the viewport; print keeps its original A5 dimensions. */
+@media screen {
+  main{padding:18px 24px;height:100dvh;display:flex;flex-direction:column;max-width:none}
+  .page-heading{flex-shrink:0;margin-bottom:16px;min-height:40px;padding-right:185px;display:flex;align-items:center}
+  .page-heading .eyebrow,.page-heading>p,main>footer{display:none}
+  .page-heading h1{font-size:21px}
+  .settings-top{position:absolute;right:0;top:0;margin:0}
+  .columns{flex:1;min-height:0;grid-template-columns:290px minmax(0,1fr);gap:20px;align-items:stretch}
+  .control-column{min-height:0;overflow:auto}
+  .card{padding:18px}
+  .card-title{margin-bottom:16px}
+  .search-button{margin:14px 0}
+  .mode{padding-top:12px}
+  .demo-help{margin-top:8px}
+  .print-card{margin-top:14px}
+  .paper-spec{padding:10px;margin:12px 0}
+  .guide{padding:14px 8px}
+  .guide p{margin-top:4px}
+  .preview-panel{min-height:0;display:flex;flex-direction:column}
+  .preview-header{height:44px;flex-shrink:0;padding:0 16px}
+  .preview-footer{height:32px;flex-shrink:0;padding:0 16px}
+  .preview-canvas{flex:1;min-height:0;padding:16px;overflow:hidden;align-items:center}
+  .preview-sheet{flex:none;width:max-content}
+  .preview-sheet .slip{zoom:1}
+  .empty-paper{width:420px;max-width:none;height:596px}
+}
+@media screen and (max-height:740px) {
+  .card{padding:14px}.card-title{margin-bottom:12px}
+  .search-card .hint,.guide{display:none}
+  .print-card{margin-top:12px}.paper-spec{margin:10px 0;padding:8px}
+  .demo-help{line-height:1.6}.sidebar{padding-top:22px;padding-bottom:18px}
+}
+@media screen and (max-width:650px) {
+  main{padding:12px;height:auto;min-height:100dvh}
+  .page-heading{padding-right:0;display:block;margin-bottom:12px}
+  .page-heading h1{font-size:19px}.settings-top{position:static;margin-top:10px}
+  .columns{grid-template-columns:1fr;flex:none}
+  .control-column{overflow:visible}
+  .preview-panel{height:60dvh;min-height:280px}
+}
+@media print {
+  .preview-sheet{zoom:1!important;width:auto}
+}
+
+.queue-row{justify-content:center}
+/* Readable patient details at actual A5 print size and in the scaled preview. */
+.slip{font-family:Tahoma,'Segoe UI',sans-serif;font-size:17px;line-height:1.45}
+.slip h2{font-size:23px;line-height:1.4}
+.slip-date{font-size:15px}
+.slip-detail p{line-height:1.45;margin:6px 0}
+.slip-detail .rights{font-size:19px}
+.vitals{font-size:20px;margin-top:14px}
+.cc-lines>div{height:24px;align-items:flex-end}
+
+
+
+
+
+/* Keep navigation and branding in one compact header. */
+.main{margin-left:0}
+/* Larger text in the search and print controls. */
+.control-column .card h2{font-size:19px}
+.control-column .card-title p{font-size:13px;line-height:1.5}
+.control-column label{font-size:15px}
+.control-column .input-wrap input{font-size:18px;height:50px}
+.control-column .input-wrap svg{top:16px}
+.control-column .primary{font-size:16px;padding:12px 16px}
+.control-column .mode{font-size:13px}
+.control-column .mode-tag{font-size:10px}
+.control-column .hint,.control-column .demo-help{font-size:12px}
+.control-column .paper-spec strong{font-size:15px}
+.control-column .paper-spec small{font-size:12px}
+.control-column .paper-icon{font-size:13px}
+.control-column .guide strong{font-size:13px}
+.control-column .guide p{font-size:12px}
+@media screen {
+  .page-heading{display:flex;align-items:center;gap:24px;padding-right:0;flex-wrap:wrap;min-height:43px}
+  .page-heading .brand{flex-shrink:0}
+  .page-heading h1{border-left:1px solid var(--border);padding-left:24px}
+  .page-heading .settings-top{position:static;margin:0 0 0 auto;flex-shrink:0}
+}
+@media screen and (max-width:650px) {
+  .page-heading{gap:12px}
+  .page-heading h1{order:3;flex-basis:100%;border:0;padding-left:0}
+  .page-heading .brand{font-size:18px}
+  .page-heading .settings-top{padding:10px;font-size:11px}
+}
+
+.queue-settings{border-top:1px solid var(--border);margin-top:20px;padding-top:16px}.queue-settings h3{font-size:14px;margin:0 0 8px}.queue-settings p{font-size:11px;line-height:1.7;color:var(--muted);margin:0 0 12px}.queue-settings button{color:#ac473a;border-color:#e8c6bf}
+
+.reset-confirm{margin-top:12px;padding:12px;background:#fff1ed;border-radius:6px}.reset-confirm .modal-actions{margin-top:8px}.reset-confirm .primary{background:#ac473a;color:white;border-color:#ac473a}
+
+/* A5 slip: centered queue and HN, with extra writing lines. */
+.slip{display:flex;flex-direction:column;min-height:210mm}
+.slip-date{display:grid;grid-template-columns:1fr auto 1fr;align-items:baseline;gap:10px}
+.slip-date>span:last-child{text-align:right}
+.slip-hn{text-align:center;white-space:nowrap}
+.patient-name-row{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:20px;row-gap:2px}
+.patient-name-row>span:first-child{min-width:0}
+.patient-cid{white-space:nowrap}
+.cc-lines{display:flex;flex:1;flex-direction:column}
+.cc-lines>div{flex:1;min-height:26px}.cc-lines span{line-height:1;transform:translateY(3px)}
+
+@media print{.slip{min-height:210mm}}
+/* Use one row interval throughout patient details, vitals, and writing lines. */
+.slip{--slip-row-height:32px}
+.slip-detail p{margin:0;min-height:var(--slip-row-height);line-height:var(--slip-row-height)}
+.vitals{margin-top:0}
+.vitals>div{margin:0;height:var(--slip-row-height);line-height:var(--slip-row-height);align-items:baseline}
+.cc-lines{flex:none}
+.cc-lines>div{flex:none;height:var(--slip-row-height);min-height:var(--slip-row-height);line-height:var(--slip-row-height);align-items:center}
+.cc-lines span{line-height:var(--slip-row-height);transform:none}
+.cc-lines i{transform:translateY(6px)}
+/* Bundle TH Sarabun New so printouts also work on other computers offline. */
+@font-face{font-family:'TH Sarabun New';src:url('/fonts/th-sarabun-new/THSarabunNew.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:'TH Sarabun New';src:url('/fonts/th-sarabun-new/THSarabunNew%20Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:block}
+.slip{font-family:'TH Sarabun New',Tahoma,sans-serif;font-size:22px}
+.slip h2{font-family:inherit;font-size:28px}
+.slip-date{font-size:20px;padding-bottom:8px}
+.slip-detail .rights{font-size:22px}
+.queue-row{font-family:inherit;font-size:52px;line-height:1}
+.vitals,.cc-lines span{font-family:inherit;font-size:22px}
+/* Match the entire application to the bundled Thai typeface. */
+body,button,input,textarea,.brand,.brand small,.settings-grid textarea,.sql-help,.demo-watermark{font-family:'TH Sarabun New',Tahoma,sans-serif}
+@media screen{
+ body{font-size:20px}
+ .brand{font-size:28px}.brand small{font-size:16px}
+ .page-heading h1{font-size:28px;line-height:1.2}
+ .outline,.primary{font-size:20px}
+ .control-column .card h2{font-size:25px}
+ .control-column .card-title p{font-size:19px}
+ .control-column label{font-size:21px}
+ .control-column .input-wrap input{font-size:25px}
+ .control-column .primary{font-size:23px}
+ .control-column .mode{font-size:19px}.control-column .mode-tag{font-size:14px}
+ .control-column .hint,.control-column .demo-help{font-size:17px}
+ .control-column .paper-spec strong{font-size:21px}.control-column .paper-spec small{font-size:17px}
+ .control-column .paper-icon{font-size:19px}
+ .control-column .guide strong{font-size:19px}.control-column .guide p{font-size:17px}
+ .preview-header{font-size:19px}.preview-footer{font-size:15px}
+ .empty-content h3{font-size:22px}.empty-content p{font-size:18px}.empty-pill{font-size:16px}
+ .modal h2{font-size:26px}.modal label{font-size:21px}
+ .modal-header p,.settings-grid small,details,.error,.success{font-size:18px}
+ .settings-grid textarea,.sql-help{font-size:18px}
+ .queue-settings h3{font-size:23px}.queue-settings p{font-size:18px}
+}
+@media screen and (max-width:650px){.page-heading h1{font-size:25px}.page-heading .brand{font-size:26px}.page-heading .settings-top{font-size:18px}}
+/* Printed destinations with empty boxes for staff to mark by hand. */
+.service-points{break-inside:avoid}
+.service-points h3{font-size:22px;font-weight:700;height:var(--slip-row-height);line-height:var(--slip-row-height);margin:0}
+.service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px}
+.service-option{display:flex;align-items:center;gap:8px;min-height:var(--slip-row-height);line-height:var(--slip-row-height)}
+.service-box{display:block;flex:0 0 14px;width:14px;height:14px;border:1px solid #000}
+.service-other-line{flex:1;border-bottom:1px dotted #888;min-width:35px;transform:translateY(6px)}
+.header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-left:auto}
+.page-heading .header-actions .settings-top{position:static;margin:0}
+.queue-current{margin-bottom:14px}.queue-edit-help,.queue-edit-warning{font-size:18px;line-height:1.5;margin-top:12px}.queue-edit-warning{color:#ac473a}
+@media print{.header-actions{display:none!important}}
+
+.settings-grid select{display:block;width:100%;margin-top:8px;padding:10px 12px;border:1px solid #dce4df;border-radius:7px;background:white;color:var(--ink);font-family:'TH Sarabun New',Tahoma,sans-serif;font-size:21px}.settings-grid select:focus{outline:2px solid #73bdaa;outline-offset:2px}
+/* Shared A5 layout: omit missing addresses and use the freed space for writing. */
+.slip{--slip-row-height:30px;padding:8mm 9mm;gap:0}
+.slip h2{line-height:1.25;margin-bottom:3px}
+.slip .queue-row{margin:3px 0 7px}
+.slip .slip-date{margin-bottom:8px;gap:8px}
+.slip-detail p{line-height:1.35;min-height:var(--slip-row-height);padding:2px 0}
+.slip-detail .patient-name-row{column-gap:16px;row-gap:0}
+.slip-detail .patient-address{line-height:1.3}
+.slip .vitals{margin-top:6px;margin-bottom:4px}
+.slip .cc-lines{flex:1;min-height:0;display:flex;flex-direction:column}
+.slip .cc-lines>div{display:flex;flex:1;align-items:flex-end;gap:6px;min-height:30px;height:auto;line-height:30px}
+.slip .cc-lines>div:first-child{display:flex;height:auto}
+.slip .cc-lines>div:first-child span{display:block;line-height:1;flex:none;margin-bottom:4px;transform:translateY(3px)}
+.slip .cc-lines>div:first-child span::after{content:none}
+.slip .cc-lines i,.slip .cc-lines>div:first-child i{display:block;flex:1;margin:0;transform:none;align-self:flex-end;margin-bottom:4px}
+.slip .service-points{margin-top:8px;flex-shrink:0}
+.slip .service-grid{column-gap:12px;row-gap:0}
+.slip .service-option{line-height:1.2;padding:3px 0;min-height:30px}
+.slip .service-points h3{height:30px;line-height:30px}
+@media print{.slip{padding:8mm 9mm;min-height:210mm}}
+
+/* PCU v.1 uses the PCU layout with a right-aligned queue. */
+.slip-pcu-v1 .queue-row{justify-content:flex-end}
+
+/* รพ.สต.Cup: half-inch margins on the A5 sheet, on screen and in print. */
+.slip.slip-services{padding:12.7mm;--slip-row-height:28px}
+.slip-services h2{font-size:26px;line-height:1.15}
+.slip-services .queue-row{font-size:46px;margin:2px 0 5px}
+.slip-services .slip-date{font-size:19px;gap:6px;padding-bottom:6px;margin-bottom:6px}
+.slip-services .slip-detail p{line-height:1.25;padding:1px 0}
+.slip-services .patient-name-row{column-gap:12px}
+.slip-services .age{margin-left:10px}
+.slip-services .vitals{margin-top:4px;margin-bottom:2px}
+.slip-services .cc-lines>div{min-height:26px;line-height:26px}
+.slip-services .service-points{margin-top:6px}
+.slip-services .service-points h3{height:28px;line-height:28px}
+.slip-services .service-grid{column-gap:10px}
+.slip-services .service-option{font-size:20px;gap:6px;min-height:26px;padding:2px 0}
+.slip-services .service-box{width:13px;height:13px;flex-basis:13px}
+/* Keep CC directly after BP; distribute extra writing room below its first row. */
+.slip-services .cc-lines>div:first-child{flex:0 0 26px;height:26px;min-height:26px}
+
+
